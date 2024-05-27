@@ -34,9 +34,9 @@ const b_1 = 6;
 const c_1 = 9;
 
 //b^2-4ac
-let discr_1 = (b_1**2) - (4 * a_1 * c_1)
+const discr_1 = (b_1**2) - (4 * a_1 * c_1)
 //(-b+-sqrt(disct_1))/(2*a)
-let sqrt_1_1 = ((-b_1 + Math.sqrt(discr_1)) / (2 * a_1))
+const sqrt_1_1 = ((-b_1 + Math.sqrt(discr_1)) / (2 * a_1))
 console.log("Ответ к уравнению 1: " + sqrt_1_1)
 
 
@@ -45,16 +45,16 @@ const a_2 = 1;
 const b_2 = 4;
 const c_2 = -5;
 
-let discr_2 = (b_2**2) - (4 * a_2 * c_2)
+const discr_2 = (b_2**2) - (4 * a_2 * c_2)
 //(-b+-sqrt(disct_2))/(2*a)
-let sqrt_2_1 = ((-b_2 + Math.sqrt(discr_2)) / (2 * a_2))
-let sqrt_2_2 = ((-b_2 - Math.sqrt(discr_2)) / (2 * a_2))
+const sqrt_2_1 = ((-b_2 + Math.sqrt(discr_2)) / (2 * a_2))
+const sqrt_2_2 = ((-b_2 - Math.sqrt(discr_2)) / (2 * a_2))
 console.log("Ответ к уравнению 2: " + sqrt_2_1 + " и " + sqrt_2_2)
 
 //Task 3**
 console.log("---------------------------------------")
-let n = String(Math.floor(Math.random() * 9) + 1)
-let nn = n+n;
-let nnn = n+n+n;
-console.log("Рандомное число = " + n)
-console.log( Number(n) + Number(nn) + Number(nnn))
+const n = String(Math.floor(Math.random() * 9) + 1);
+const nn = n+n;
+const nnn = n+n+n;
+console.log("Рандомное число = " + n);
+console.log( Number(n) + Number(nn) + Number(nnn));
