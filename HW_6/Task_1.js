@@ -17,10 +17,7 @@ function getEmployeeInfo(employeeName) {
         return null;
     }
 
-    const nameAndSalary = [];
-    nameAndSalary.push(employeeNames[index]);
-    nameAndSalary.push(employeeSalary[index]);
-    return nameAndSalary;
+    return [employeeNames[index], employeeSalary[index]];
 }
 
 console.log(getEmployeeInfo('Ann'));
